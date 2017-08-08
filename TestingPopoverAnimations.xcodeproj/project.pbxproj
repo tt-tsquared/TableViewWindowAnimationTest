@@ -12,6 +12,7 @@
 		2E0836F21F3A06E800F27120 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0836F11F3A06E800F27120 /* ViewController.m */; };
 		2E0836F41F3A06E800F27120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0836F31F3A06E800F27120 /* Assets.xcassets */; };
 		2E0836F71F3A06E800F27120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0836F51F3A06E800F27120 /* Main.storyboard */; };
+		2E0837001F3A129700F27120 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0836FF1F3A129700F27120 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		2E0836F31F3A06E800F27120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0836F61F3A06E800F27120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E0836F81F3A06E800F27120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0836FE1F3A129700F27120 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2E0836FF1F3A129700F27120 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				2E0836F51F3A06E800F27120 /* Main.storyboard */,
 				2E0836F81F3A06E800F27120 /* Info.plist */,
 				2E0836ED1F3A06E800F27120 /* Supporting Files */,
+				2E0836FE1F3A129700F27120 /* TableViewController.h */,
+				2E0836FF1F3A129700F27120 /* TableViewController.m */,
 			);
 			path = TestingPopoverAnimations;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				2E0836F21F3A06E800F27120 /* ViewController.m in Sources */,
 				2E0836EF1F3A06E800F27120 /* main.m in Sources */,
 				2E0836EC1F3A06E800F27120 /* AppDelegate.m in Sources */,
+				2E0837001F3A129700F27120 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
